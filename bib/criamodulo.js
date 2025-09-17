@@ -8,7 +8,7 @@ function subtrair(a,b)
   let x = a - b;
   return x;
 }
-function multiplicar(a * b)
+function multiplicar(a,b)
 {
   let x = a * b;
   return x;
