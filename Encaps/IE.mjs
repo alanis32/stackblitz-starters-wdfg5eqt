@@ -1,7 +1,7 @@
 // 🧾 IE.mjs (ESM)
 // 01: Requer Node com "type": "module" ou extensão .mjs
 // 02: Ajuste o caminho/forma de import do PJ conforme seu projeto:
-import PJ from "../PJ.js"; 
+import PJ from '../PJ.js'; 
 // 03: se seu PJ for CommonJS, use: import PJpkg from "../PJ.js"; const PJ = PJpkg.default ?? PJpkg;
 
 // 04: Classe IEclss
