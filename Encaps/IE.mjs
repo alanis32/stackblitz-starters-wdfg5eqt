@@ -24,9 +24,9 @@ export class IEclss {
   getPJ() { return this.#pj; } 
 }
 
-} module.exports = IE
+ module.exports = IE
 // 23: Factory function
-/*export default function IEfunc() {
+export default function IEfunc() {
   let dados = { numero: null, estado: null, dataRegistro: null, pj: null }; 
 
   function setNumero(numero) { if (numero) { dados.numero = numero; return true; } return false; } 
@@ -62,5 +62,5 @@ export const IEjson = {
 
   setPJ(pj) { if (pj instanceof PJ || (pj && pj.cnpj)) { this.pj = pj; return true; } return false; }, 
   getPJ() { return this.pj; } 
-};/*
+};
 
